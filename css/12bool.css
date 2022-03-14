@@ -141,3 +141,15 @@
   justify-content: space-around;
   text-align: center;
 }
+/* flex direction column */
+.direction-column-xs{
+    flex-direction: column;
+}
+/* center alignment */
+.center-alignments-xs{
+    align-items: center;
+}
+/* bottom alignment */
+.bottom-alignment-xs{
+    align-items:flex-end;
+}
