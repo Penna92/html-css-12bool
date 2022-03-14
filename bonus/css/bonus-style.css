@@ -1,0 +1,31 @@
+main {
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+.box {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-senape {
+  background-color: rgb(209, 139, 70);
+}
+.bg-light-senape {
+  background-color: rgb(254, 206, 158);
+}
+.box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
